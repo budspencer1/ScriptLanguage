@@ -1,0 +1,191 @@
+*
+push (a, 50)
+push (xxx, "Test2.sap")
+push (b, mul(2, @a))
+
+execute (@xxx)
+*
+push (a, "fuck you")
+push (b, 10)
+push (test, 10)
+
+if ([1, 2, 3, 4], 3, 1.01 , [4]) 
+{
+	output ("true")
+	while (set(test, sub(@test, 2))) {
+		output ("tttt:", @test)
+	}	
+	switch (@a) {
+	case (1) {
+		output (1) 
+	}
+	case (10) {
+		output (2)
+	}
+	case (@a) {
+		output (3)
+		switch (@df) {
+			case (1) {
+				output ("sex 1")
+			}
+			case ([30333]) {
+				output ("sex 2")
+			}
+			default {
+				output ("sex none")
+			}
+		}
+	}
+	default {
+		output ("default argument")
+	}
+}
+	if (1) {
+		output ("also true")
+		if (sin(40), push(gg, 1)) {
+			output ("this is genius")
+			do {
+				output (@b)
+				set (b, sub(@b, 1))
+			} while (@b)
+			output ("I want to know")
+		} else {
+			output ("Fuck you")
+		}
+		output ("I don't")
+	}
+	output ("end")
+} 
+else {
+	output ("begin")
+	if (1) {
+		output ("genius")
+	}
+	output ("mid")
+	if (22, "str", [45, 44.55]) {
+		output ("more genius")
+	}
+	output ("ende begin")
+	do {
+		output (@b)
+		set (b, sub(@b, 1))
+	} while (@b)
+	output ("lulzyyyyyyyyyyyy")
+	do {
+		output ("works")
+	}
+	output (1111)
+}
+
+push (i, 10)
+
+do {  
+	output (@i)
+	set (i, sub(@i, 1))
+}
+while (@i)
+
+if (1) {
+	output ("done")
+}
+push (x, 30)
+do {
+	do {
+		output (@x)
+		set (x, sub(@x, 1))
+	} *while (@x)*
+}
+
+output ("THIS IS SPARTA")
+
+push (ded, 10)
+do {
+	output ("111")
+};
+while (@ded) {
+	output ("test")
+	set (ded, sub (@ded, 1))
+}
+set(ded, 10)
+while (@ded) {
+	output ("i sux")
+	set (ded, sub (@ded, 1))
+}
+output ("THIS IS SPARTA22")
+
+push (a, "fuck you")
+push (df, [30, 333])
+
+switch (@a) {
+	case (1) {
+		output (1) 
+	}
+	case (10) {
+		output (2)
+	}
+	case ("fuck you") {
+		output (3)
+		switch (@df) {
+			case (1) {
+				output ("sex 1")
+			}
+			case ([30333]) {
+				output ("sex 2")
+			}
+			default {
+				output ("sex none")
+			}
+		}
+	}
+	default {
+		output ("default argument")
+	}
+}
+push (fuck, -20.33)
+
+switch (@fuck) {
+	case (1) {
+		output (1) 
+	}
+	case (-20.33) {
+		output (2)
+	}
+	case ("fuck you") {
+		output (3)
+		switch (@df) {
+			case (1) {
+				output ("sex 1")
+			}
+			case ([30333]) {
+				output ("sex 2")
+			}
+			default {
+				output ("sex none")
+			}
+		}
+	}
+	default {
+		output ("default argument")
+	}
+}
+
+output ("end")
+push (lll, 10) 
+do {
+	output (mul(random(), 100))
+} while (set (lll, sub (@lll, 1)))
+
+output (sin(cos(tan(9))))
+push (icc, 5.320)
+output ("endeeeeeeeeeeeeeeeeeeeee")
+output(pow(9, 2), pow(81, 0.5), pow(3.33, -2.11), pow(@icc, @icc), pow(random(), random()))
+output ("end pow")
+output(exp(9), exp(81), exp(3.33), exp(-2.11), exp(@icc), exp(random()))
+
+if (==(04.22, @lol, @izi)
+{	
+	output ("xD")
+}
+
+
+
